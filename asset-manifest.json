@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/portfolio.github.io/static/css/main.5919c7f1.css",
-    "main.js": "/portfolio.github.io/static/js/main.1b7a2834.js",
-    "static/js/787.1ed0c42c.chunk.js": "/portfolio.github.io/static/js/787.1ed0c42c.chunk.js",
-    "static/media/projet3.png": "/portfolio.github.io/static/media/projet3.7d08ccfad4259e2a794c.png",
-    "static/media/projet2.png": "/portfolio.github.io/static/media/projet2.99cab21b958440db33e2.png",
-    "static/media/MarwenMeddebCV.pdf": "/portfolio.github.io/static/media/MarwenMeddebCV.889f9c7a6ba8fdeb835f.pdf",
-    "static/media/avatar.png": "/portfolio.github.io/static/media/avatar.670d0a6abeacf8dcc03f.png",
-    "static/media/home-main.svg": "/portfolio.github.io/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
-    "static/media/projet4.png": "/portfolio.github.io/static/media/projet4.ab4c9554497488ac7373.png",
-    "static/media/about.png": "/portfolio.github.io/static/media/about.aee0f771fbfc1e7b8fa8.png",
-    "static/media/projet5.png": "/portfolio.github.io/static/media/projet5.3e3a507faa5ce7049d06.png",
-    "static/media/projet1.png": "/portfolio.github.io/static/media/projet1.55e24cd173ca9447dca8.png",
-    "static/media/logo.png": "/portfolio.github.io/static/media/logo.b9d0ec4a710d35f33e9f.png",
-    "static/media/home-bg.jpg": "/portfolio.github.io/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
-    "static/media/pre.svg": "/portfolio.github.io/static/media/pre.d4812f51c8c80976eaab.svg",
-    "index.html": "/portfolio.github.io/index.html",
-    "main.5919c7f1.css.map": "/portfolio.github.io/static/css/main.5919c7f1.css.map",
-    "main.1b7a2834.js.map": "/portfolio.github.io/static/js/main.1b7a2834.js.map",
-    "787.1ed0c42c.chunk.js.map": "/portfolio.github.io/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/static/css/main.342872f4.css",
+    "main.js": "/static/js/main.53626d22.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/projet3.png": "/static/media/projet3.7d08ccfad4259e2a794c.png",
+    "static/media/projet2.png": "/static/media/projet2.99cab21b958440db33e2.png",
+    "static/media/MarwenMeddebCV.pdf": "/static/media/MarwenMeddebCV.889f9c7a6ba8fdeb835f.pdf",
+    "static/media/avatar.png": "/static/media/avatar.670d0a6abeacf8dcc03f.png",
+    "static/media/home-main.svg": "/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
+    "static/media/projet4.png": "/static/media/projet4.ab4c9554497488ac7373.png",
+    "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/projet5.png": "/static/media/projet5.3e3a507faa5ce7049d06.png",
+    "static/media/projet1.png": "/static/media/projet1.55e24cd173ca9447dca8.png",
+    "static/media/logo.png": "/static/media/logo.b9d0ec4a710d35f33e9f.png",
+    "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
+    "index.html": "/index.html",
+    "main.342872f4.css.map": "/static/css/main.342872f4.css.map",
+    "main.53626d22.js.map": "/static/js/main.53626d22.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5919c7f1.css",
-    "static/js/main.1b7a2834.js"
+    "static/css/main.342872f4.css",
+    "static/js/main.53626d22.js"
   ]
 }
