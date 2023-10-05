@@ -1,29 +1,71 @@
-import React, { Component } from 'react';
-export default class Footer extends Component {
-  render() {
-    let resumeData = this.props.resumeData;
-    return (
-      <footer>
-      <div className="row">
-        <div className="twelve columns">
-          <ul className="social-links">
-            {
-              resumeData.socialLinks && resumeData.socialLinks.map((item)=>{
-                return(
-                  <li>
-                    <a href={item.url}>
-                    <i className={item.className} />
-                    </a>
-                  </li>
-                )
-              })
-            }
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import {
+  AiFillGithub,
+  AiOutlineTwitter,
+  AiFillInstagram,
+} from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
+
+function Footer() {
+  let date = new Date();
+  let year = date.getFullYear();
+  return (
+    <Container fluid className="footer">
+      <Row>
+        <Col md="4" className="footer-copywright">
+          <h3>TheAgentMaro Portfolio</h3>
+        </Col>
+        <Col md="4" className="footer-copywright">
+          <h3>Copyright © {year}</h3>
+        </Col>
+        <Col md="4" className="footer-body">
+          <ul className="footer-icons">
+            <li className="social-icons">
+              <a
+                href="https://github.com/TheAgentMaro"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <AiFillGithub />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://twitter.com/MarwenMeddeb9"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <AiOutlineTwitter />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://www.linkedin.com/in/marwen-meddeb/"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <FaLinkedinIn />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://www.instagram.com/_marwen_meddeb_/"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <AiFillInstagram />
+              </a>
+            </li>
           </ul>
-          
-        </div>
-        <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open" /></a></div>
-      </div>
-    </footer>
-    );
-  }
+        </Col>
+      </Row>
+    </Container>
+  );
 }
+
+export default Footer;

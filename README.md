@@ -1,6 +1,6 @@
 # Portfolio
 
-This is my personal portfolio website built using React.
+This is my personal portfolio website built using React.js.
 
 ## Table of Contents
 
@@ -17,10 +17,13 @@ You can see a live demo of my portfolio [here](https://theagentmaro.github.io/po
 
 ## Technologies
 
-- React
+- React.js
+- Node.js
 - HTML
 - CSS
 - JavaScript
+- VsCode
+- Github Pages
 
 
 ## Installation
