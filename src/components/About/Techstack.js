@@ -14,26 +14,17 @@ import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1,
   DiReact,
-  DiNodejs,
-  DiMongodb,
   DiPython,
   DiGit,
-  DiJava,
   DiJqueryLogo,
 } from "react-icons/di";
 import {
-  SiRedis,
-  SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
-  SiPostgresql,
   SiCsharp,
   SiDotnet,
   SiMicrosoftsqlserver,
 
 } from "react-icons/si";
 import { 
-  TbBrandGolang,
   TbFileTypeSql,
   TbApi,
  } from "react-icons/tb";
