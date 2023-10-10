@@ -742,3 +742,62 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+/* Contact Section */
+.contact-section {
+  position: relative !important;
+  padding-top: 100px !important; /* Adjust top padding */
+  padding-bottom: 100px !important; /* Adjust bottom padding */
+  background-image: var(--section-background-color) !important;
+  text-align: center;
+}
+
+/* Contact Image */
+.contact-image {
+  height: 250px;
+  width: 300px;
+  border-radius: 10%; /* Makes the image circular */
+  box-shadow: 0 0 20px rgba(52, 36, 52, 0.5); /* Purple box shadow effect */
+  margin-bottom: 30px; /* Adjust the margin as needed */
+}
+
+/* Form Styles */
+.form-group {
+  margin-bottom: 20px; /* Add space between form elements */
+}
+
+/* Button Styles */
+.btn-primary {
+  background-color: #800080; /* Purple background color */
+  border: none;
+  padding: 10px 20px; /* Adjust padding as needed */
+}
+
+.btn-primary:hover {
+  background-color: #6a006a; /* Darker purple on hover */
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Textarea Styles for the Message */
+#formMessage {
+  margin-bottom: 20px; /* Add space between the message field and the button */
+}
+
+/* Button Styles */
+.btn-primary {
+  background-color: #800080;
+  border: none;
+  padding: 10px 20px;
+}
+
+.btn-primary:hover {
+  background-color: #6a006a;
+}
+
+/* CSS to visually hide the label text */
+.sr-only {
+  color: #080708;
+}
