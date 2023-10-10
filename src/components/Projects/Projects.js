@@ -7,6 +7,7 @@ import projet2 from "../../Assets/Projects/projet2.png";
 import projet3 from "../../Assets/Projects/projet3.png";
 import projet4 from "../../Assets/Projects/projet4.png";
 import projet5 from "../../Assets/Projects/projet5.png";
+import projet6 from "../../Assets/Projects/projet6.png";
 
 
 function Projects() {
@@ -28,6 +29,14 @@ function Projects() {
               title="Supplier Management System"
               description="A web application that allows the management of suppliers and their products. It also allows the management of orders and their status."
               ghLink="https://github.com/TheAgentMaro/Gestion-Fournisseur-Application"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={projet6}
+              isNotAvailable={true}
+              title="BlogoCraft"
+              description="BlogoCraft project is to design and develop an innovative blogging platform that offers an exceptional user experience. This platform will enable users to publish, comment on and like their posts, while guaranteeing optimal performance on the client side thanks to a responsive and dynamic user interface, as well as efficient management of posts and server-side authentication."
             />
           </Col>
           <Col md={4} className="project-card">
