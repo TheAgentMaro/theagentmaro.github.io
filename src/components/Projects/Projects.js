@@ -36,7 +36,7 @@ function Projects() {
               imgPath={projet6}
               isNotAvailable={true}
               title="BlogoCraft"
-              description="BlogoCraft project is to design and develop an innovative blogging platform that offers an exceptional user experience. This platform will enable users to publish, comment on and like their posts, while guaranteeing optimal performance on the client side thanks to a responsive and dynamic user interface, as well as efficient management of posts and server-side authentication."
+              description="The main objective of the BlogoCraft project is to design and develop an innovative blogging platform that offers an exceptional user experience. This platform will enable users to publish, comment on and like their posts, while guaranteeing optimal performance on the client side thanks to a responsive and dynamic user interface, as well as efficient management of posts and server-side authentication."
             />
           </Col>
           <Col md={4} className="project-card">
