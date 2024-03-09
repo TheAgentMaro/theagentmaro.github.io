@@ -20,7 +20,6 @@ function ProjectCards(props) {
         {"\n"}
         {"\n"}
 
-
         {!props.isNotAvailable && props.demoLink && (
           <Button
             variant="primary"

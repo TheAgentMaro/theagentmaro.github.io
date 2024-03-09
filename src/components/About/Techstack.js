@@ -1,10 +1,11 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { 
+  FaJava,
+  FaPhp,
   FaHtml5,
   FaCss3Alt, 
   FaBootstrap,
-
 } from "react-icons/fa";
 import {
   BsFiletypeJson,
@@ -19,9 +20,12 @@ import {
   DiJqueryLogo,
 } from "react-icons/di";
 import {
+  SiTypescript,
   SiCsharp,
   SiDotnet,
   SiMicrosoftsqlserver,
+  SiMysql,
+  SiMongodb,
 
 } from "react-icons/si";
 import { 
@@ -40,6 +44,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTypescript />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <FaBootstrap />
@@ -69,10 +76,22 @@ function Techstack() {
         <SiMicrosoftsqlserver />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiMysql  />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMongodb   />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <TbApi />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaJava />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaPhp />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />

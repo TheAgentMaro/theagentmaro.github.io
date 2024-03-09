@@ -7,7 +7,7 @@ function Type() {
       options={{
         strings: [
           "Student Engineer",
-          "Full Stack Developer .Net & React.js",
+          "Full Stack Developer",
           "Freelancer",
           "Open Source Contributor",
         ],

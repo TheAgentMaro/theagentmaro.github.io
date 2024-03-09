@@ -8,7 +8,14 @@ import projet3 from "../../Assets/Projects/projet3.png";
 import projet4 from "../../Assets/Projects/projet4.png";
 import projet5 from "../../Assets/Projects/projet5.png";
 import projet6 from "../../Assets/Projects/projet6.png";
+import githubimg from "../../Assets/github.png";
+import { Button } from "react-bootstrap";
+import { BsGithub } from "react-icons/bs"
 
+
+const handleClick = () => {
+  window.open("https://github.com/TheAgentMaro", "_blank");
+};
 
 function Projects() {
   return (
@@ -21,6 +28,7 @@ function Projects() {
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on .
         </p>
+
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
@@ -71,6 +79,15 @@ function Projects() {
               isNotAvailable={true}
               title="Move Information Technology Portfolios Website"
               description="A website for the Move Information Technology company. The website is developed in ReactJS and uses the Bootstrap library for the frontend and the .NET framework for the backend with MVC architecture."
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={githubimg}
+              isNotAvailable={false}
+              title="More projects on github"
+              description="Click on the button below to see more projects on my github."
+              ghLink="https://github.com/TheAgentMaro"
             />
           </Col>
         </Row>

@@ -23,7 +23,7 @@ function Home2() {
               <br />
               <br />My passion lies in the realm of Full Stack development in utilizing 
               <i>
-                <b className="purple"> .Net and ReactJS </b>.
+                <b className="purple"> Different technologies </b>.
               </i>
               to craft innovative &nbsp;
               <i>
